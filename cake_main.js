@@ -8,14 +8,14 @@ function setup()
 }
 function preload()
 {
-  img = loadImage('bags.jpg')
+  img = loadImage('Cake.jpg')
 }
 function draw()
 {
     image(img , 0 ,0,640,420);
     fill("#FF0000");
-    text("bag", 65 , 320);
+    text("cake", 65 ,85);
     noFill();
     stroke("#FF0000");
-    rect(60 , 300, 200 ,100);
+    rect(60 , 70, 400 , 300);
 }

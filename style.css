@@ -5,9 +5,9 @@ body
 }
 .heading
 {
-font-size: 23px;
+font-size: 20px;
 width: 100%;
-margin: 0px;
+margin: 20px;
 }
 
 #status
@@ -16,12 +16,13 @@ font-size: 18px;
 }
 canvas
 {
-    box-shadow: 10px 10px 10px chocolate;
+    box-shadow: 10px 10px 10px rgb(120, 119, 255);
     border-radius: 10px;
-}
+}   
 a
 {
-    font-size: 20px !important;
+    font-size: 18px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 400px;
     border-radius: 30px !important;
 }
